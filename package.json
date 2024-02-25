@@ -9,6 +9,10 @@
     "build": "rm -rf dist && tsc",
     "text": "echo \"Imagine a world where you test a single line of code\""
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dexxiez/next-hydration-guard.git"
+  },
   "files": [
     "dist"
   ],

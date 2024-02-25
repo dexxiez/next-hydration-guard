@@ -10,7 +10,7 @@ import * as React from "react";
  * @param children The component to render once the data is ready.
  * @returns The component to render.
  */
-export const SSRHydrationGuard = ({
+export const NextHydrationGuard = ({
   data,
   fallback,
   children,
