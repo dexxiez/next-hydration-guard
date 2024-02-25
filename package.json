@@ -1,0 +1,36 @@
+{
+  "name": "next-hydration-guard",
+  "author": "Dexxiez",
+  "version": "0.0.2",
+  "description": "Prevents Next.js App Router Hydration errors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "text": "echo \"Imagine a world where you test a single line of code\""
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "next.js",
+    "react",
+    "hydration",
+    "app router"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=18 <19",
+    "react-dom": ">=18 <19",
+    "next": ">=13 <=14"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
+  }
+}
